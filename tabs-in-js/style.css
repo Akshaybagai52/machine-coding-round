@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.tab-buttons {
+  margin-bottom: 10px;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #eee;
+  margin-right: 5px;
+}
+
+.tab.active {
+  background-color: #ccc;
+  font-weight: bold;
+}
+
+.tab-content {
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+
+.hidden {
+  display: none;
+}
